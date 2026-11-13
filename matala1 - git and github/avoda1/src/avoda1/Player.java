@@ -33,6 +33,7 @@ public class Player extends Character {
 	//Done
 	public int calculateInventoryValue() {
 		int sum = 0;
+		System.out.println(this.getName());
 		for(int i=0; i < this.inventory.length; i++) {
 			sum += this.inventory[i].getValue();
 		}

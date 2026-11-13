@@ -50,9 +50,10 @@ public class GameWorld{
 	public void getTotalValueOfWorld() {
 		int sum=0;
 		for(int i=0; i<this.players.length; i++) {
-			sum += this.players[i].calculateInventoryValue();
+			sum = this.players[i].calculateInventoryValue();
+			this.players[i].getName();
+			System.out.println("max sum: "+sum);
 		}
-		System.out.println("max sum: "+sum);
 	}
 	//Done
 	public String toString() {

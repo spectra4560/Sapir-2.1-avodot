@@ -12,7 +12,7 @@ public class Item {
 	//Done
 	Item(String name, int value, boolean isMagical){
 		this.name = name;
-		setValue(this.value);
+		setValue(value);
 		this.isMagical = isMagical;
 	}
 	//Done

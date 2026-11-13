@@ -14,7 +14,7 @@ public class Main {
         Item potion = new Item("Potion", 25, false);
 
         //Player section
-        Player player1 = new Player("Elara the Enchanter",10,0);
+        Player player1 = new Player("Elara the Enchanter",10,4);
         Player player2 = new Player("Aragon",10,5);
         player1.addItem(sword);
         player1.addItem(potion);
@@ -22,7 +22,7 @@ public class Main {
         player2.addItem(potion);
 
         //Enemy section
-        Enemy enemy1 = new Enemy("Goblin", 2, 1, 1);
+        Enemy enemy1 = new Enemy("Goblin", 2, 2, 1);
         Enemy enemy2 = new Enemy("Dragon", 5, 4, 3);
 
         //GameWorld section
@@ -30,6 +30,30 @@ public class Main {
         
         //functions
         currentGameWorld.printAllPlayers();
-    
+        
+        System.out.println(player1.calculateInventoryValue());
+        System.out.println(player2.calculateInventoryValue());
+        
+        simulateBattle(player1,enemy1);
+        
     }
+    
+    public static void simulateBattle(Player player1, Enemy enemy1) {
+    	System.out.println("\n battle:\n");
+    	System.out.print(player1.getName() + " - level:" + player1.getLevel() + " VS ");
+    	System.out.println(enemy1.getName() + " - level:" + enemy1.getLevel());
+    	
+    	if(player1.getLevel()>enemy1.getLevel()) {
+    		player1.levelUp();
+    		System.out.println(player1.getName()+" wins!");
+    		
+    	}else if(enemy1.getLevel()>player1.getLevel()) {
+    		enemy1.getLevel();
+    		System.out.println(enemy1.getName()+" wins!");
+    		
+    	}else {
+    		System.out.println("its a draw!");
+    	}
+    }
+    
 }
