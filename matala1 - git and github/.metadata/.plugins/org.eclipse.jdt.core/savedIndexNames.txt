@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+E:\ספיר\שנה שניה\תכנות מערכות\מטלה 1 - git and github\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+933805118.index
+3447737176.index

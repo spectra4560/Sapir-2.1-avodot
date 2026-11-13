@@ -1,0 +1,22 @@
+package avoda1;
+
+public class Player extends Character {
+	private Item[] inventory; 
+	
+	Player(String name, int health, int level){
+		super(name, health, level)
+		this.inventory = new Ite
+	}
+	//
+	public void addItem(Item item) {
+		
+	}
+	
+	//
+	public int calculateInventoryValue() {
+		
+	}
+	
+	//
+	
+}
