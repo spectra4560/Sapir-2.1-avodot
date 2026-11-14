@@ -1,1 +1,0 @@
-INDEX VERSION 1.134+E:\ספיר\שנה שניה\תכנות מערכות\Sapir-2.1-avodot\matala1 - git and github\avoda1\src\avoda1\.metadata\.plugins\org.eclipse.jdt.core
