@@ -39,7 +39,6 @@ public class Main {
     }
     
     public static void simulateBattle(Player player1, Enemy enemy1) {
-    	System.out.println("\n battle:\n");
     	System.out.print(player1.getName() + " - level:" + player1.getLevel() + " VS ");
     	System.out.println(enemy1.getName() + " - level:" + enemy1.getLevel());
     	
