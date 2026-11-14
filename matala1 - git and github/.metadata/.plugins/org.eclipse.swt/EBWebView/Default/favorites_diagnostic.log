@@ -126,3 +126,13 @@
 2026-11-14 20:08:38.903: [INFO] BookmarksLoadDropped droppedNodes=0
 2026-11-14 20:08:38.903: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
 2026-11-14 20:15:57.020: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-11-14 21:07:14.262: [INFO] CurrentProfilePath: E:\sapir\second year\Tichnut Ma'arachot\Sapir-2.1-avodot\matala1 - git and github\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-11-14 21:07:14.262: [INFO] Profiles total count: 1
+2026-11-14 21:07:14.262: [INFO] Profile: name=Profile 1 path=E:\sapir\second year\Tichnut Ma'arachot\Sapir-2.1-avodot\matala1 - git and github\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-11-14T20:08:43.487Z
+2026-11-14 21:07:14.262: [INFO] LastUsedProfileDir: E:\sapir\second year\Tichnut Ma'arachot\Sapir-2.1-avodot\matala1 - git and github\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-11-14 21:07:14.262: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=E:\sapir\second year\Tichnut Ma'arachot\Sapir-2.1-avodot\matala1 - git and github\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-11-14T20:08:43.487Z
+2026-11-14 21:07:14.262: [INFO] OnDoneLoading sync enabled: 0
+2026-11-14 21:07:14.262: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-11-14 21:07:14.262: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-11-14 21:07:14.262: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-11-14 21:09:58.644: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1

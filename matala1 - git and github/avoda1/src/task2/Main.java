@@ -13,7 +13,6 @@ public class Main {
 	 try {
 		 
 		 // 
-		 System.out.println("Current path: " + new File(".").getAbsolutePath());
 		 File fileCS = new File("task2/CS.txt");
 		 File fileHedva = new File("task2/hedva.txt");
 		 File fileReport = new File("task2/Report.txt");
