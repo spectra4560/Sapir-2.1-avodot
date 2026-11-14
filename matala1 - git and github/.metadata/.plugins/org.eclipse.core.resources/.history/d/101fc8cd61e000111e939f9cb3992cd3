@@ -1,0 +1,18 @@
+package avoda3;
+
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		int raceDistance = 0, name=1;;
+		
+		Scanner sc = new Scanner(System.in);
+		
+		while(raceDistance <=0) {
+		
+				System.out.println("Enter distance: ");
+				raceDistance = sc.nextInt();
+
+		}
+	}
+}

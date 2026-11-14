@@ -1,0 +1,18 @@
+package avoda3;
+
+public class Horse {
+	private String name;
+	private int distance;
+	
+	Horse(String name, FinishingLine f, int distance) {}
+	
+	public void run() {}
+	
+	public String getName() {
+		return this.name;
+	}
+	public String getHourseName() {
+		
+		return "s";
+	}
+}

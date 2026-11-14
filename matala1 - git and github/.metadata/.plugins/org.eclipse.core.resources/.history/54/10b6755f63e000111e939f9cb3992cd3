@@ -1,0 +1,46 @@
+package avoda3;
+
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		int raceDistance = 0; 
+		String name;
+		
+		Scanner sc = new Scanner(System.in);
+		// set race distance
+		while(raceDistance <=0) {
+		try {
+				System.out.print("Enter distance: ");
+				raceDistance = sc.nextInt();
+				if(raceDistance <= 0) {
+					System.out.println("distance most be bigget then 0..");
+				}
+		}catch(InputMismatchException e) {
+			System.out.println("Invalid input! Please enter a valid number.");
+			sc.nextLine();
+		}
+		
+		//logic
+		FinishingLine f = new FinishingLine();
+		// create horses
+		for(int i=0; i<10; i++) {
+			switch(i) {
+				case 0: name="One";
+				case 1: name="Two";
+				case 2: name="Tree";
+				case 3: name="Four";
+				case 4: name="Five";
+				case 5: name="Six";
+				case 6: name="Seven";
+				case 7: name="Eight";
+				case 8: name="Nine";
+				case 9: name="Ten";
+			}
+			new Horse(name, f, raceDistance).start();
+		}
+		
+		
+		}
+	}
+}

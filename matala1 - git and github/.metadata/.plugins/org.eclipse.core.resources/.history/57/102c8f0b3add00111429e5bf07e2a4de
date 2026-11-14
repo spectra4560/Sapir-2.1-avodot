@@ -1,0 +1,51 @@
+package avoda1;
+
+public class Character {
+	private String name;
+	private int health;
+	private int level;
+	
+	//
+	Character(String name, int health, int level){
+		this.name = name;
+		
+		
+	}
+	//Done
+	Character(){
+		this("Unknown", 0, 0);
+	}
+	//Done
+	public String getName() {
+		return this.name;
+	}
+	//
+	public int getHealth() {
+		
+	}
+	//
+	public int getLevel() {
+		
+	}
+	//
+	public void levelUp() {
+		if(this.getLevel() < 5) {
+			this.level ++;
+		}
+	}
+	//Done
+	public void heal(int amount) {
+		if(amount > 0) {
+			this.health = this.getHealth() + amount;
+			if(this.getHealth() > 10) {
+				this.health = 10;
+			}
+		}
+	}
+	//
+	public String toString() {
+		String returnString = "";
+		
+		return "s";
+	}
+}

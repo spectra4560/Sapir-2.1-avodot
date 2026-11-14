@@ -1,0 +1,17 @@
+package avoda3;
+
+public class FinishingLine {
+	private int currentPlace = 1;
+	FinishingLine(){}
+	
+	public synchronized void arrive(Horse h) {
+		if(currentPlace == 1) {
+			System.out.println("*******************************");
+			System.out.println("====> " + h.getHorseName() + " finished first!");
+			System.out.println("*******************************");
+		}else {
+			System.out.println("====> " + h.getHorseName() + "finished on " + currentPlace + "-th place");
+		}
+		currentPlace++;
+	}
+}

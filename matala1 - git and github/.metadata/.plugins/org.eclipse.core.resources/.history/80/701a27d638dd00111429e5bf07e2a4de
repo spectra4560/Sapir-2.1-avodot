@@ -1,0 +1,22 @@
+package avoda1;
+
+public class Character {
+	private String name;
+	private int health;
+	private int level;
+	
+	//
+	Character(String name, int health, int level){
+		this.name = name;
+		
+		
+	}
+	//Done
+	Character(){
+		this("Unknown", 0, 0);
+	}
+	//
+	String getName() {
+		
+	}
+}

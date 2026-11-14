@@ -1,0 +1,32 @@
+package avoda3;
+
+public class Horse extends Thread{
+	private String name;
+	private FinishingLine f;
+	private int distance;
+	
+	Horse(String name, FinishingLine f, int distance) {
+		this.name = name;
+		this.f = f;
+		this.distance = distance;
+	}
+	
+	public void run() {
+		while(distance > 0) {
+			try {
+				
+				Thread.sleep(1000);
+				distance += (int)(Math.random()*20) + 1;
+				System.out.println();
+				if(distance >= 50) {
+					f.arrive(this);
+				}
+			}catch() {}
+		}
+	}
+	
+
+	public String getHorseName() {
+		return this.name;
+	}
+}

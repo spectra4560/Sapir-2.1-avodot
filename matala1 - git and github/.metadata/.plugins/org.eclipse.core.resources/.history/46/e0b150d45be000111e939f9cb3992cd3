@@ -1,0 +1,10 @@
+package avoda3;
+
+public class FinishingLine {
+	private int currentPlace = 1;
+	FinishingLine(){}
+	
+	public void arrive(Horse h) {}
+	
+	
+}

@@ -1,0 +1,9 @@
+import java.util.Scanner;
+package avoda3;
+
+public class Main {
+	public static void main(String[] args) {
+		
+		System.out.println((int)(Math.random()*20) + 1);
+	}
+}
