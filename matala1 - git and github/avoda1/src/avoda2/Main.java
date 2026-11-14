@@ -1,3 +1,7 @@
+// ודים קולטניוק
+// 315433201
+//עילי אפנג׳ר 
+// 324087600
 package avoda2;
 import java.util.Scanner;
 import java.io.File;
