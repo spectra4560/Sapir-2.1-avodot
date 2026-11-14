@@ -2,7 +2,7 @@
 // 315433201
 //עילי אפנג׳ר 
 // 324087600
-package avoda3;
+package task3;
 
 public class Horse extends Thread{
 	private String name;
@@ -16,9 +16,9 @@ public class Horse extends Thread{
 	}
 	
 	public void run() {
+		System.out.println(name + ":\t " + distance + " meters to finish");
 		while(distance > 0) {
 			try {
-				System.out.println(name + ":\t " + distance + " meters to finish");
 				Thread.sleep(1000);
 				distance -= (int)(Math.random()*20) + 1;
 				if(distance <= 0) {

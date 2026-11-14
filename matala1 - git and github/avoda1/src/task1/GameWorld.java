@@ -2,7 +2,7 @@
 // 315433201
 //עילי אפנג׳ר 
 // 324087600
-package avoda1;
+package task1;
 
 public class GameWorld{
 	private String name;

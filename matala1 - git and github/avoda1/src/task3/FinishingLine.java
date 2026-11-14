@@ -2,7 +2,7 @@
 // 315433201
 //עילי אפנג׳ר 
 // 324087600
-package avoda3;
+package task3;
 
 public class FinishingLine {
 	private int currentPlace = 1;

@@ -2,7 +2,7 @@
 // 315433201
 //עילי אפנג׳ר 
 // 324087600
-package avoda2;
+package task2;
 import java.util.Scanner;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -12,10 +12,11 @@ public class Main {
  public static void main(String[] args) {
 	 try {
 		 
-		 // יצירת הפניה לקובץ
-		 File fileCS = new File("src/avoda2/CS.txt");
-		 File fileHedva = new File("src/avoda2/hedva.txt");
-		 File fileReport = new File("src/avoda2/Report.txt");
+		 // 
+		 System.out.println("Current path: " + new File(".").getAbsolutePath());
+		 File fileCS = new File("task2/CS.txt");
+		 File fileHedva = new File("task2/hedva.txt");
+		 File fileReport = new File("task2/Report.txt");
 		 // פתיחת הקבצים
 		 Scanner scannerCS = new Scanner(fileCS);
 		 Scanner scannerHedva = new Scanner(fileHedva);
